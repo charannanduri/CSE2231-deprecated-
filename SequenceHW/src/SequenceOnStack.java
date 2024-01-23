@@ -13,7 +13,7 @@ public final class SequenceOnStack {
      * No argument constructor--private to prevent instantiation.
      */
     private SequenceOnStack() {
-        // no code needed here
+        // no code needed here.
     }
 
     /**
