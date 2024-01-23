@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.7.3" sequence="13" timestamp="1696548351287" analysisTimestamp="1696548351070" release="">
+  <Project projectName="RSSAggregator">
+    <Jar>C:\Users\efris\Desktop\OsuCseWsTemplate\workspace\RSSAggregator\bin\RSSAggragator.class</Jar>
+    <AuxClasspathEntry>C:\Users\efris\Desktop\OsuCseWsTemplate\workspace\RSSAggregator\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\efris\Desktop\components.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\efris\Desktop\eclipse-java-2023-06-R-win32-x86_64\eclipse\plugins\org.junit_4.13.2.v20211018-1956.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\efris\Desktop\eclipse-java-2023-06-R-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\efris\Desktop\eclipse-java-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.7.v20230425-1502\jre\lib\jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\efris\Desktop\OsuCseWsTemplate\workspace\RSSAggregator\src</SrcDir>
+    <SrcDir>C:\Users\efris\Desktop\OsuCseWsTemplate\workspace\RSSAggregator\test</SrcDir>
+  </Project>
+  <BugInstance type="ES_COMPARING_PARAMETER_STRING_WITH_EQ" priority="2" rank="16" abbrev="ES" category="BAD_PRACTICE" first="2">
+    <Class classname="RSSAggragator">
+      <SourceLine classname="RSSAggragator" sourcefile="RSSAggragator.java" sourcepath="RSSAggragator.java"/>
+    </Class>
+    <Method classname="RSSAggragator" name="getChildElement" signature="(Lcomponents/xmltree/XMLTree;Ljava/lang/String;)I" isStatic="true">
+      <SourceLine classname="RSSAggragator" start="41" end="56" startBytecode="0" endBytecode="57" sourcefile="RSSAggragator.java" sourcepath="RSSAggragator.java"/>
+    </Method>
+    <Type descriptor="Ljava/lang/String;" role="TYPE_FOUND">
+      <SourceLine classname="java.lang.String" start="140" end="4657" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Type>
+    <LocalVariable name="tag" register="1" pc="97" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <Method classname="components.xmltree.XMLTree" name="label" signature="()Ljava/lang/String;" isStatic="false" role="METHOD_RETURN_VALUE_OF">
+      <SourceLine classname="components.xmltree.XMLTree"/>
+    </Method>
+    <SourceLine classname="RSSAggragator" start="49" end="49" startBytecode="98" endBytecode="98" sourcefile="RSSAggragator.java" sourcepath="RSSAggragator.java"/>
+    <SourceLine classname="RSSAggragator" start="49" end="49" startBytecode="98" endBytecode="98" sourcefile="RSSAggragator.java" sourcepath="RSSAggragator.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.RefComparisonWarningProperty.STATIC_AND_PARAMETER" value="true"/>
+  </BugInstance>
+  <BugInstance type="ES_COMPARING_PARAMETER_STRING_WITH_EQ" priority="2" rank="16" abbrev="ES" category="BAD_PRACTICE" first="1">
+    <Class classname="RSSProcessing">
+      <SourceLine classname="RSSProcessing" sourcefile="RSSProcessing.java" sourcepath="RSSProcessing.java"/>
+    </Class>
+    <Method classname="RSSProcessing" name="getChildElement" signature="(Lcomponents/xmltree/XMLTree;Ljava/lang/String;)I" isStatic="true">
+      <SourceLine classname="RSSProcessing" start="41" end="56" startBytecode="0" endBytecode="57" sourcefile="RSSProcessing.java" sourcepath="RSSProcessing.java"/>
+    </Method>
+    <Type descriptor="Ljava/lang/String;" role="TYPE_FOUND">
+      <SourceLine classname="java.lang.String" start="140" end="4657" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Type>
+    <LocalVariable name="tag" register="1" pc="97" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <Method classname="components.xmltree.XMLTree" name="label" signature="()Ljava/lang/String;" isStatic="false" role="METHOD_RETURN_VALUE_OF">
+      <SourceLine classname="components.xmltree.XMLTree"/>
+    </Method>
+    <SourceLine classname="RSSProcessing" start="49" end="49" startBytecode="98" endBytecode="98" sourcefile="RSSProcessing.java" sourcepath="RSSProcessing.java"/>
+    <SourceLine classname="RSSProcessing" start="49" end="49" startBytecode="98" endBytecode="98" sourcefile="RSSProcessing.java" sourcepath="RSSProcessing.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.RefComparisonWarningProperty.STATIC_AND_PARAMETER" value="true"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Thu, 5 Oct 2023 19:25:51 -0400" total_classes="1" referenced_classes="21" total_bugs="2" total_size="125" num_packages="1" java_version="17.0.8" vm_version="17.0.8+7" cpu_seconds="0.23" clock_seconds="0.22" peak_mbytes="884.73" alloc_mbytes="2048.00" gc_seconds="0.02" priority_2="2">
+    <PackageStats package="" total_bugs="2" total_types="2" total_size="125" priority_2="2">
+      <ClassStats class="RSSAggragator" sourceFile="RSSAggragator.java" interface="false" size="125" bugs="1" priority_2="1"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="59" invocations="2" avgMicrosecondsPerInvocation="29728" maxMicrosecondsPerInvocation="55736" standardDeviationMicrosecondsPerInvocation="26008"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="56" invocations="409" avgMicrosecondsPerInvocation="139" maxMicrosecondsPerInvocation="2325" standardDeviationMicrosecondsPerInvocation="284"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="31" invocations="410" avgMicrosecondsPerInvocation="75" maxMicrosecondsPerInvocation="616" standardDeviationMicrosecondsPerInvocation="76"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1696544470809" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1696544470810" release="" codeSize="131" numClasses="1"/>
+    <AppVersion sequence="2" timestamp="1696544488619" release="" codeSize="131" numClasses="1"/>
+    <AppVersion sequence="3" timestamp="1696544893541" release="" codeSize="126" numClasses="1"/>
+    <AppVersion sequence="4" timestamp="1696545246352" release="" codeSize="119" numClasses="1"/>
+    <AppVersion sequence="5" timestamp="1696545269024" release="" codeSize="108" numClasses="1"/>
+    <AppVersion sequence="6" timestamp="1696547072066" release="" codeSize="80" numClasses="1"/>
+    <AppVersion sequence="7" timestamp="1696547472240" release="" codeSize="64" numClasses="1"/>
+    <AppVersion sequence="8" timestamp="1696547504853" release="" codeSize="87" numClasses="1"/>
+    <AppVersion sequence="9" timestamp="1696547548826" release="" codeSize="87" numClasses="1"/>
+    <AppVersion sequence="10" timestamp="1696547820885" release="" codeSize="128" numClasses="1"/>
+    <AppVersion sequence="11" timestamp="1696548051028" release="" codeSize="127" numClasses="1"/>
+    <AppVersion sequence="12" timestamp="1696548074126" release="" codeSize="127" numClasses="1"/>
+  </History>
+</BugCollection>

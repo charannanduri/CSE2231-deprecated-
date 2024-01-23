@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="components.simplereader.SimpleReader"/>
+    <fullyQualifiedTypeName name="components.simplereader.SimpleReader1L"/>
+    <fullyQualifiedTypeName name="java.util.Random"/>
+    <fullyQualifiedTypeName name="boolean"/>
+    <fullyQualifiedTypeName name="components.utilities.FormatChecker"/>
+    <fullyQualifiedTypeName name="components.xmltree.XMLTree1"/>
+    <fullyQualifiedTypeName name="components.xmltree.XMLTree"/>
+    <fullyQualifiedTypeName name="components.utilities.Reporter"/>
+    <fullyQualifiedTypeName name="components.simplewriter.SimpleWriter1L"/>
+    <fullyQualifiedTypeName name="java.io.File"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.awt.FlowLayout"/>
+    <fullyQualifiedTypeName name="components.naturalnumber.NaturalNumber1L"/>
+    <fullyQualifiedTypeName name="components.sequence.Sequence"/>
+    <fullyQualifiedTypeName name="components.sequence.Sequence1L"/>
+    <fullyQualifiedTypeName name="components.stack.Stack1L"/>
+    <fullyQualifiedTypeName name="components.stack.Stack3"/>
+    <fullyQualifiedTypeName name="components.sequence.Sequence2L"/>
+    <fullyQualifiedTypeName name="components.map.Map"/>
+    <fullyQualifiedTypeName name="components.set.Set1L"/>
+</qualifiedTypeNameHistroy>

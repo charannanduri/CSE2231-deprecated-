@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.7.3" sequence="1" timestamp="1698267819643" analysisTimestamp="1698267818317" release="">
+  <Project projectName="CoinChange">
+    <Jar>C:\Users\efris\Desktop\OsuCseWsTemplate\workspace\CoinChange\bin</Jar>
+    <AuxClasspathEntry>C:\Users\efris\Desktop\OsuCseWsTemplate\workspace\CoinChange\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\efris\Desktop\components.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\efris\Desktop\eclipse-java-2023-06-R-win32-x86_64\eclipse\plugins\org.junit_4.13.2.v20211018-1956.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\efris\Desktop\eclipse-java-2023-06-R-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\efris\Desktop\eclipse-java-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.7.v20230425-1502\jre\lib\jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\efris\Desktop\OsuCseWsTemplate\workspace\CoinChange\test</SrcDir>
+    <SrcDir>C:\Users\efris\Desktop\OsuCseWsTemplate\workspace\CoinChange\src</SrcDir>
+  </Project>
+  <BugInstance type="INT_BAD_REM_BY_1" priority="1" rank="9" abbrev="INT" category="STYLE" first="1">
+    <Class classname="CoinChange1">
+      <SourceLine classname="CoinChange1" sourcefile="CoinChange1.java" sourcepath="CoinChange1.java"/>
+    </Class>
+    <Method classname="CoinChange1" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="CoinChange1" start="27" end="66" startBytecode="0" endBytecode="551" sourcefile="CoinChange1.java" sourcepath="CoinChange1.java"/>
+    </Method>
+    <SourceLine classname="CoinChange1" start="53" end="53" startBytecode="164" endBytecode="164" sourcefile="CoinChange1.java" sourcepath="CoinChange1.java"/>
+    <SourceLine classname="CoinChange1" start="53" end="53" startBytecode="164" endBytecode="164" sourcefile="CoinChange1.java" sourcepath="CoinChange1.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Wed, 25 Oct 2023 16:19:04 -0400" total_classes="2" referenced_classes="18" total_bugs="1" total_size="63" num_packages="1" java_version="17.0.8" vm_version="17.0.8+7" cpu_seconds="2.14" clock_seconds="1.33" peak_mbytes="517.43" alloc_mbytes="2048.00" gc_seconds="0.02" priority_1="1">
+    <PackageStats package="" total_bugs="1" total_types="2" total_size="63" priority_1="1">
+      <ClassStats class="CoinChange1" sourceFile="CoinChange1.java" interface="false" size="39" bugs="1" priority_1="1"/>
+      <ClassStats class="CoinChange2" sourceFile="CoinChange2.java" interface="false" size="24" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="464" invocations="2" avgMicrosecondsPerInvocation="232418" maxMicrosecondsPerInvocation="347213" standardDeviationMicrosecondsPerInvocation="114795"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="235" invocations="374" avgMicrosecondsPerInvocation="628" maxMicrosecondsPerInvocation="12530" standardDeviationMicrosecondsPerInvocation="1279"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="74" invocations="375" avgMicrosecondsPerInvocation="199" maxMicrosecondsPerInvocation="6106" standardDeviationMicrosecondsPerInvocation="325"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="60" invocations="18" avgMicrosecondsPerInvocation="3379" maxMicrosecondsPerInvocation="14348" standardDeviationMicrosecondsPerInvocation="4831"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="45" invocations="73" avgMicrosecondsPerInvocation="624" maxMicrosecondsPerInvocation="4114" standardDeviationMicrosecondsPerInvocation="646"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="39" invocations="18" avgMicrosecondsPerInvocation="2180" maxMicrosecondsPerInvocation="18272" standardDeviationMicrosecondsPerInvocation="4104"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="28" invocations="4" avgMicrosecondsPerInvocation="7145" maxMicrosecondsPerInvocation="27227" standardDeviationMicrosecondsPerInvocation="11597"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures" totalMilliseconds="26" invocations="18" avgMicrosecondsPerInvocation="1451" maxMicrosecondsPerInvocation="12166" standardDeviationMicrosecondsPerInvocation="2937"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="23" invocations="4" avgMicrosecondsPerInvocation="5768" maxMicrosecondsPerInvocation="13194" standardDeviationMicrosecondsPerInvocation="4805"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1698267819642" release="" codeSize="0" numClasses="0"/>
+  </History>
+</BugCollection>

@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+C:\Users\efris\Desktop\OsuCseWsTemplate\workspace\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+2466392160.index
+2234343715.index
+2365875454.index
+721337009.index
+2806220587.index
+277816391.index

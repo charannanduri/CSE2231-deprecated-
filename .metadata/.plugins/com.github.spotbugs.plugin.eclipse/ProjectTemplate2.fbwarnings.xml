@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.7.3" sequence="5" timestamp="1704990368381" analysisTimestamp="1704990367896" release="">
+  <Project projectName="ProjectTemplate2">
+    <Jar>C:\Users\efris\Desktop\Workspace_II\workspace\ProjectTemplate2\bin\SmoothTest.class</Jar>
+    <AuxClasspathEntry>C:\Users\efris\Desktop\Workspace_II\workspace\ProjectTemplate2\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\efris\Desktop\components.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\efris\Desktop\eclipse-java-2023-06-R-win32-x86_64\eclipse\plugins\org.junit_4.13.2.v20211018-1956.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\efris\Desktop\eclipse-java-2023-06-R-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\efris\Desktop\eclipse-java-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.7.v20230425-1502\jre\lib\jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\efris\Desktop\Workspace_II\workspace\ProjectTemplate2\test</SrcDir>
+    <SrcDir>C:\Users\efris\Desktop\Workspace_II\workspace\ProjectTemplate2\src</SrcDir>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Thu, 11 Jan 2024 11:26:07 -0500" total_classes="1" referenced_classes="15" total_bugs="0" total_size="7" num_packages="1" java_version="17.0.8" vm_version="17.0.8+7" cpu_seconds="0.59" clock_seconds="0.49" peak_mbytes="562.30" alloc_mbytes="2048.00" gc_seconds="0.04">
+    <PackageStats package="" total_bugs="0" total_types="1" total_size="7">
+      <ClassStats class="SmoothTest" sourceFile="SmoothTest.java" interface="false" size="7" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="139" invocations="2" avgMicrosecondsPerInvocation="69648" maxMicrosecondsPerInvocation="127786" standardDeviationMicrosecondsPerInvocation="58138"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="115" invocations="359" avgMicrosecondsPerInvocation="321" maxMicrosecondsPerInvocation="7434" standardDeviationMicrosecondsPerInvocation="666"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="95" invocations="361" avgMicrosecondsPerInvocation="264" maxMicrosecondsPerInvocation="6147" standardDeviationMicrosecondsPerInvocation="586"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="26" invocations="15" avgMicrosecondsPerInvocation="1756" maxMicrosecondsPerInvocation="5923" standardDeviationMicrosecondsPerInvocation="2262"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1704955707290" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1704955707296" release="" codeSize="38" numClasses="4"/>
+    <AppVersion sequence="2" timestamp="1704956032156" release="" codeSize="12" numClasses="1"/>
+    <AppVersion sequence="3" timestamp="1704956057740" release="" codeSize="9" numClasses="1"/>
+    <AppVersion sequence="4" timestamp="1704956796260" release="" codeSize="9" numClasses="1"/>
+  </History>
+</BugCollection>

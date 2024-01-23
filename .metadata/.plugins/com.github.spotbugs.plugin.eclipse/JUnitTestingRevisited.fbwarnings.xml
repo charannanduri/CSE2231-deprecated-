@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.7.3" sequence="5" timestamp="1705618143249" analysisTimestamp="1705618141558" release="">
+  <Project projectName="JUnitTestingRevisited">
+    <Jar>C:\Users\efris\Desktop\Workspace_II\workspace\JUnitTestingRevisited\bin\Stack1LTest.class</Jar>
+    <AuxClasspathEntry>C:\Users\efris\Desktop\Workspace_II\workspace\JUnitTestingRevisited\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\efris\Desktop\components.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\efris\Desktop\eclipse-java-2023-06-R-win32-x86_64\eclipse\plugins\org.junit_4.13.2.v20211018-1956.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\efris\Desktop\eclipse-java-2023-06-R-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\efris\Desktop\eclipse-java-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.7.v20230425-1502\jre\lib\jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\efris\Desktop\Workspace_II\workspace\JUnitTestingRevisited\src</SrcDir>
+    <SrcDir>C:\Users\efris\Desktop\Workspace_II\workspace\JUnitTestingRevisited\test</SrcDir>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Thu, 18 Jan 2024 17:49:01 -0500" total_classes="1" referenced_classes="19" total_bugs="0" total_size="8" num_packages="1" java_version="17.0.8" vm_version="17.0.8+7" cpu_seconds="2.39" clock_seconds="1.70" peak_mbytes="1726.08" alloc_mbytes="2048.00" gc_seconds="0.00">
+    <PackageStats package="" total_bugs="0" total_types="1" total_size="8">
+      <ClassStats class="Stack1LTest" sourceFile="Stack1LTest.java" interface="false" size="8" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="1160" invocations="2" avgMicrosecondsPerInvocation="580487" maxMicrosecondsPerInvocation="1142389" standardDeviationMicrosecondsPerInvocation="561901"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="251" invocations="383" avgMicrosecondsPerInvocation="657" maxMicrosecondsPerInvocation="10505" standardDeviationMicrosecondsPerInvocation="1278"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1705424114623" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1705424114626" release="" codeSize="3" numClasses="1"/>
+    <AppVersion sequence="2" timestamp="1705424362530" release="" codeSize="3" numClasses="1"/>
+    <AppVersion sequence="3" timestamp="1705424367157" release="" codeSize="7" numClasses="1"/>
+    <AppVersion sequence="4" timestamp="1705424369517" release="" codeSize="101" numClasses="1"/>
+  </History>
+</BugCollection>

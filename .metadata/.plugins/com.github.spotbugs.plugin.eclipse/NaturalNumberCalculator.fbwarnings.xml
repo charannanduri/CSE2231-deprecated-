@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.7.3" sequence="41" timestamp="1701846333076" analysisTimestamp="1701846332921" release="">
+  <Project projectName="NaturalNumberCalculator">
+    <Jar>C:\Users\efris\Desktop\OsuCseWsTemplate\workspace\NaturalNumberCalculator\bin\NNCalcController1.class</Jar>
+    <AuxClasspathEntry>C:\Users\efris\Desktop\OsuCseWsTemplate\workspace\NaturalNumberCalculator\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\efris\Desktop\components.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\efris\Desktop\eclipse-java-2023-06-R-win32-x86_64\eclipse\plugins\org.junit_4.13.2.v20211018-1956.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\efris\Desktop\eclipse-java-2023-06-R-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\efris\Desktop\eclipse-java-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.7.v20230425-1502\jre\lib\jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\efris\Desktop\OsuCseWsTemplate\workspace\NaturalNumberCalculator\test</SrcDir>
+    <SrcDir>C:\Users\efris\Desktop\OsuCseWsTemplate\workspace\NaturalNumberCalculator\src</SrcDir>
+  </Project>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="1" rank="15" abbrev="DLS" category="STYLE" first="39" last="39" removedByChange="true">
+    <Class classname="NNCalcController1">
+      <SourceLine classname="NNCalcController1" sourcefile="NNCalcController1.java" sourcepath="NNCalcController1.java"/>
+    </Class>
+    <Method classname="NNCalcController1" name="processAddEvent" signature="()V" isStatic="false">
+      <SourceLine classname="NNCalcController1" start="129" end="138" startBytecode="0" endBytecode="22" sourcefile="NNCalcController1.java" sourcepath="NNCalcController1.java"/>
+    </Method>
+    <LocalVariable name="temp" register="3" pc="28" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="NNCalcController1" start="131" end="131" startBytecode="27" endBytecode="27" sourcefile="NNCalcController1.java" sourcepath="NNCalcController1.java"/>
+    <SourceLine classname="NNCalcController1" start="131" end="131" startBytecode="27" endBytecode="27" sourcefile="NNCalcController1.java" sourcepath="NNCalcController1.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="temp"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+  </BugInstance>
+  <BugInstance type="RCN_REDUNDANT_NULLCHECK_WOULD_HAVE_BEEN_A_NPE" priority="2" rank="11" abbrev="RCN" category="CORRECTNESS" first="37" last="37" removedByChange="true">
+    <Class classname="NNCalcController1">
+      <SourceLine classname="NNCalcController1" sourcefile="NNCalcController1.java" sourcepath="NNCalcController1.java"/>
+    </Class>
+    <Method classname="NNCalcController1" name="updateViewToMatchModel" signature="(LNNCalcModel;LNNCalcView;)V" isStatic="true">
+      <SourceLine classname="NNCalcController1" start="46" end="70" startBytecode="0" endBytecode="319" sourcefile="NNCalcController1.java" sourcepath="NNCalcController1.java"/>
+    </Method>
+    <LocalVariable name="bottom" register="3" pc="62" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <Method classname="NNCalcModel" name="bottom" signature="()Lcomponents/naturalnumber/NaturalNumber;" isStatic="false" role="METHOD_RETURN_VALUE_OF">
+      <SourceLine classname="NNCalcModel" sourcefile="NNCalcModel.java" sourcepath="NNCalcModel.java"/>
+    </Method>
+    <SourceLine classname="NNCalcController1" start="49" end="49" startBytecode="21" endBytecode="21" sourcefile="NNCalcController1.java" sourcepath="NNCalcController1.java"/>
+    <SourceLine classname="NNCalcController1" start="54" end="54" startBytecode="63" endBytecode="63" sourcefile="NNCalcController1.java" sourcepath="NNCalcController1.java" role="SOURCE_REDUNDANT_NULL_CHECK"/>
+    <SourceLine classname="NNCalcController1" start="54" end="54" startBytecode="63" endBytecode="63" sourcefile="NNCalcController1.java" sourcepath="NNCalcController1.java" role="SOURCE_REDUNDANT_NULL_CHECK"/>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="23" last="23" removedByChange="true">
+    <Class classname="NNCalcController1">
+      <SourceLine classname="NNCalcController1" sourcefile="NNCalcController1.java" sourcepath="NNCalcController1.java"/>
+    </Class>
+    <Field classname="NNCalcController1" name="INT_LIMIT" signature="Lcomponents/naturalnumber/NaturalNumber;" isStatic="true">
+      <SourceLine classname="NNCalcController1" start="25" end="25" startBytecode="0" endBytecode="0" sourcefile="NNCalcController1.java" sourcepath="NNCalcController1.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="23" last="23" removedByChange="true">
+    <Class classname="NNCalcController1">
+      <SourceLine classname="NNCalcController1" sourcefile="NNCalcController1.java" sourcepath="NNCalcController1.java"/>
+    </Class>
+    <Field classname="NNCalcController1" name="TEN" signature="I" isStatic="false">
+      <SourceLine classname="NNCalcController1" start="27" end="27" startBytecode="0" endBytecode="0" sourcefile="NNCalcController1.java" sourcepath="NNCalcController1.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="23" last="23" removedByChange="true">
+    <Class classname="NNCalcController1">
+      <SourceLine classname="NNCalcController1" sourcefile="NNCalcController1.java" sourcepath="NNCalcController1.java"/>
+    </Class>
+    <Field classname="NNCalcController1" name="TWO" signature="Lcomponents/naturalnumber/NaturalNumber;" isStatic="true">
+      <SourceLine classname="NNCalcController1" start="24" end="24" startBytecode="0" endBytecode="0" sourcefile="NNCalcController1.java" sourcepath="NNCalcController1.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="23" last="23" removedByChange="true">
+    <Class classname="NNCalcController1">
+      <SourceLine classname="NNCalcController1" sourcefile="NNCalcController1.java" sourcepath="NNCalcController1.java"/>
+    </Class>
+    <Field classname="NNCalcController1" name="ZERO" signature="Lcomponents/naturalnumber/NaturalNumber;" isStatic="true">
+      <SourceLine classname="NNCalcController1" start="26" end="26" startBytecode="0" endBytecode="0" sourcefile="NNCalcController1.java" sourcepath="NNCalcController1.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="23" last="23" removedByChange="true">
+    <Class classname="NNCalcController1">
+      <SourceLine classname="NNCalcController1" sourcefile="NNCalcController1.java" sourcepath="NNCalcController1.java"/>
+    </Class>
+    <Field classname="NNCalcController1" name="model" signature="LNNCalcModel;" isStatic="false">
+      <SourceLine classname="NNCalcController1" start="14" end="14" startBytecode="0" endBytecode="0" sourcefile="NNCalcController1.java" sourcepath="NNCalcController1.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE" first="23" last="23" removedByChange="true">
+    <Class classname="NNCalcController1">
+      <SourceLine classname="NNCalcController1" sourcefile="NNCalcController1.java" sourcepath="NNCalcController1.java"/>
+    </Class>
+    <Field classname="NNCalcController1" name="view" signature="LNNCalcView;" isStatic="false">
+      <SourceLine classname="NNCalcController1" start="19" end="19" startBytecode="0" endBytecode="0" sourcefile="NNCalcController1.java" sourcepath="NNCalcController1.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP" priority="2" rank="18" abbrev="EI" category="MALICIOUS_CODE" first="8">
+    <Class classname="NNCalcModel1">
+      <SourceLine classname="NNCalcModel1" sourcefile="NNCalcModel1.java" sourcepath="NNCalcModel1.java"/>
+    </Class>
+    <Method classname="NNCalcModel1" name="bottom" signature="()Lcomponents/naturalnumber/NaturalNumber;" isStatic="false">
+      <SourceLine classname="NNCalcModel1" start="37" end="37" startBytecode="0" endBytecode="46" sourcefile="NNCalcModel1.java" sourcepath="NNCalcModel1.java"/>
+    </Method>
+    <Field classname="NNCalcModel1" name="bottom" signature="Lcomponents/naturalnumber/NaturalNumber;" isStatic="false">
+      <SourceLine classname="NNCalcModel1" sourcefile="NNCalcModel1.java" sourcepath="NNCalcModel1.java"/>
+    </Field>
+    <SourceLine classname="NNCalcModel1" start="37" end="37" startBytecode="4" endBytecode="4" sourcefile="NNCalcModel1.java" sourcepath="NNCalcModel1.java"/>
+    <SourceLine classname="NNCalcModel1" start="37" end="37" startBytecode="4" endBytecode="4" sourcefile="NNCalcModel1.java" sourcepath="NNCalcModel1.java"/>
+  </BugInstance>
+  <BugInstance type="EI_EXPOSE_REP" priority="2" rank="18" abbrev="EI" category="MALICIOUS_CODE" first="8">
+    <Class classname="NNCalcModel1">
+      <SourceLine classname="NNCalcModel1" sourcefile="NNCalcModel1.java" sourcepath="NNCalcModel1.java"/>
+    </Class>
+    <Method classname="NNCalcModel1" name="top" signature="()Lcomponents/naturalnumber/NaturalNumber;" isStatic="false">
+      <SourceLine classname="NNCalcModel1" start="29" end="29" startBytecode="0" endBytecode="46" sourcefile="NNCalcModel1.java" sourcepath="NNCalcModel1.java"/>
+    </Method>
+    <Field classname="NNCalcModel1" name="top" signature="Lcomponents/naturalnumber/NaturalNumber;" isStatic="false">
+      <SourceLine classname="NNCalcModel1" sourcefile="NNCalcModel1.java" sourcepath="NNCalcModel1.java"/>
+    </Field>
+    <SourceLine classname="NNCalcModel1" start="29" end="29" startBytecode="4" endBytecode="4" sourcefile="NNCalcModel1.java" sourcepath="NNCalcModel1.java"/>
+    <SourceLine classname="NNCalcModel1" start="29" end="29" startBytecode="4" endBytecode="4" sourcefile="NNCalcModel1.java" sourcepath="NNCalcModel1.java"/>
+  </BugInstance>
+  <BugInstance type="UWF_UNWRITTEN_FIELD" priority="2" rank="12" abbrev="UwF" category="CORRECTNESS" first="6" last="9" removedByChange="true">
+    <Class classname="NNCalcView1">
+      <SourceLine classname="NNCalcView1" sourcefile="NNCalcView1.java" sourcepath="NNCalcView1.java"/>
+    </Class>
+    <Field classname="NNCalcView1" name="controller" signature="LNNCalcController;" isStatic="false">
+      <SourceLine classname="NNCalcView1" sourcefile="NNCalcView1.java" sourcepath="NNCalcView1.java"/>
+    </Field>
+    <SourceLine classname="NNCalcView1" start="254" end="254" startBytecode="22" endBytecode="22" sourcefile="NNCalcView1.java" sourcepath="NNCalcView1.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Wed, 6 Dec 2023 02:05:32 -0500" total_classes="1" referenced_classes="17" total_bugs="2" total_size="112" num_packages="1" java_version="17.0.8" vm_version="17.0.8+7" cpu_seconds="0.25" clock_seconds="0.16" peak_mbytes="1131.22" alloc_mbytes="2048.00" gc_seconds="0.00" priority_2="2">
+    <PackageStats package="" total_bugs="2" total_types="2" total_size="112" priority_2="2">
+      <ClassStats class="NNCalcController1" sourceFile="NNCalcController1.java" interface="false" size="112" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="45" invocations="337" avgMicrosecondsPerInvocation="133" maxMicrosecondsPerInvocation="2347" standardDeviationMicrosecondsPerInvocation="265"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="42" invocations="2" avgMicrosecondsPerInvocation="21318" maxMicrosecondsPerInvocation="39583" standardDeviationMicrosecondsPerInvocation="18265"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="28" invocations="338" avgMicrosecondsPerInvocation="83" maxMicrosecondsPerInvocation="516" standardDeviationMicrosecondsPerInvocation="74"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1701808855113" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1701808855113" release="" codeSize="101" numClasses="2"/>
+    <AppVersion sequence="2" timestamp="1701811915924" release="" codeSize="101" numClasses="2"/>
+    <AppVersion sequence="3" timestamp="1701813603137" release="" codeSize="101" numClasses="2"/>
+    <AppVersion sequence="4" timestamp="1701813953635" release="" codeSize="101" numClasses="2"/>
+    <AppVersion sequence="5" timestamp="1701814078161" release="" codeSize="101" numClasses="2"/>
+    <AppVersion sequence="6" timestamp="1701814393154" release="" codeSize="157" numClasses="2"/>
+    <AppVersion sequence="7" timestamp="1701819402238" release="" codeSize="12" numClasses="1"/>
+    <AppVersion sequence="8" timestamp="1701821124869" release="" codeSize="12" numClasses="1"/>
+    <AppVersion sequence="9" timestamp="1701823466277" release="" codeSize="183" numClasses="3"/>
+    <AppVersion sequence="10" timestamp="1701824141624" release="" codeSize="178" numClasses="2"/>
+    <AppVersion sequence="11" timestamp="1701824766989" release="" codeSize="178" numClasses="2"/>
+    <AppVersion sequence="12" timestamp="1701824788808" release="" codeSize="179" numClasses="2"/>
+    <AppVersion sequence="13" timestamp="1701830912556" release="" codeSize="56" numClasses="1"/>
+    <AppVersion sequence="14" timestamp="1701832020114" release="" codeSize="55" numClasses="1"/>
+    <AppVersion sequence="15" timestamp="1701832461469" release="" codeSize="183" numClasses="2"/>
+    <AppVersion sequence="16" timestamp="1701832461847" release="" codeSize="55" numClasses="1"/>
+    <AppVersion sequence="17" timestamp="1701833068250" release="" codeSize="58" numClasses="1"/>
+    <AppVersion sequence="18" timestamp="1701833074220" release="" codeSize="179" numClasses="2"/>
+    <AppVersion sequence="19" timestamp="1701833112707" release="" codeSize="60" numClasses="1"/>
+    <AppVersion sequence="20" timestamp="1701833310754" release="" codeSize="60" numClasses="1"/>
+    <AppVersion sequence="21" timestamp="1701833725394" release="" codeSize="60" numClasses="1"/>
+    <AppVersion sequence="22" timestamp="1701833803514" release="" codeSize="61" numClasses="1"/>
+    <AppVersion sequence="23" timestamp="1701833852570" release="" codeSize="31" numClasses="1"/>
+    <AppVersion sequence="24" timestamp="1701833882278" release="" codeSize="63" numClasses="1"/>
+    <AppVersion sequence="25" timestamp="1701834101273" release="" codeSize="71" numClasses="1"/>
+    <AppVersion sequence="26" timestamp="1701834243271" release="" codeSize="96" numClasses="1"/>
+    <AppVersion sequence="27" timestamp="1701834582253" release="" codeSize="97" numClasses="1"/>
+    <AppVersion sequence="28" timestamp="1701835137151" release="" codeSize="102" numClasses="1"/>
+    <AppVersion sequence="29" timestamp="1701835362384" release="" codeSize="102" numClasses="1"/>
+    <AppVersion sequence="30" timestamp="1701835372248" release="" codeSize="12" numClasses="1"/>
+    <AppVersion sequence="31" timestamp="1701836833731" release="" codeSize="109" numClasses="1"/>
+    <AppVersion sequence="32" timestamp="1701836955609" release="" codeSize="116" numClasses="1"/>
+    <AppVersion sequence="33" timestamp="1701843868860" release="" codeSize="117" numClasses="1"/>
+    <AppVersion sequence="34" timestamp="1701844032187" release="" codeSize="122" numClasses="1"/>
+    <AppVersion sequence="35" timestamp="1701844101731" release="" codeSize="122" numClasses="1"/>
+    <AppVersion sequence="36" timestamp="1701844142117" release="" codeSize="10" numClasses="1"/>
+    <AppVersion sequence="37" timestamp="1701844215002" release="" codeSize="122" numClasses="1"/>
+    <AppVersion sequence="38" timestamp="1701844308751" release="" codeSize="122" numClasses="1"/>
+    <AppVersion sequence="39" timestamp="1701846051924" release="" codeSize="114" numClasses="1"/>
+    <AppVersion sequence="40" timestamp="1701846134086" release="" codeSize="114" numClasses="1"/>
+  </History>
+</BugCollection>

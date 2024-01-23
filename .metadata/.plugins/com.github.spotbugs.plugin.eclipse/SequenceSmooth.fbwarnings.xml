@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.7.3" sequence="4" timestamp="1704993140219" analysisTimestamp="1704993139762" release="">
+  <Project projectName="SequenceSmooth">
+    <Jar>C:\Users\efris\Desktop\Workspace_II\workspace\SequenceSmooth\bin\SequenceSmooth.class</Jar>
+    <AuxClasspathEntry>C:\Users\efris\Desktop\Workspace_II\workspace\SequenceSmooth\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\efris\Desktop\components.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\efris\Desktop\eclipse-java-2023-06-R-win32-x86_64\eclipse\plugins\org.junit_4.13.2.v20211018-1956.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\efris\Desktop\eclipse-java-2023-06-R-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\efris\Desktop\eclipse-java-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.7.v20230425-1502\jre\lib\jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\efris\Desktop\Workspace_II\workspace\SequenceSmooth\src</SrcDir>
+    <SrcDir>C:\Users\efris\Desktop\Workspace_II\workspace\SequenceSmooth\test</SrcDir>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Thu, 11 Jan 2024 12:12:19 -0500" total_classes="1" referenced_classes="14" total_bugs="0" total_size="18" num_packages="1" java_version="17.0.8" vm_version="17.0.8+7" cpu_seconds="0.80" clock_seconds="0.46" peak_mbytes="911.83" alloc_mbytes="2048.00" gc_seconds="0.00">
+    <PackageStats package="" total_bugs="0" total_types="1" total_size="18">
+      <ClassStats class="SequenceSmooth" sourceFile="SequenceSmooth.java" interface="false" size="18" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="105" invocations="325" avgMicrosecondsPerInvocation="324" maxMicrosecondsPerInvocation="4346" standardDeviationMicrosecondsPerInvocation="581"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="85" invocations="2" avgMicrosecondsPerInvocation="42598" maxMicrosecondsPerInvocation="74076" standardDeviationMicrosecondsPerInvocation="31477"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="63" invocations="326" avgMicrosecondsPerInvocation="196" maxMicrosecondsPerInvocation="1101" standardDeviationMicrosecondsPerInvocation="143"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="22" invocations="14" avgMicrosecondsPerInvocation="1607" maxMicrosecondsPerInvocation="8553" standardDeviationMicrosecondsPerInvocation="2423"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="19" invocations="48" avgMicrosecondsPerInvocation="414" maxMicrosecondsPerInvocation="1697" standardDeviationMicrosecondsPerInvocation="358"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="14" invocations="14" avgMicrosecondsPerInvocation="1070" maxMicrosecondsPerInvocation="8315" standardDeviationMicrosecondsPerInvocation="2155"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="14" invocations="291" avgMicrosecondsPerInvocation="50" maxMicrosecondsPerInvocation="710" standardDeviationMicrosecondsPerInvocation="88"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1704991027507" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1704991027508" release="" codeSize="9" numClasses="1"/>
+    <AppVersion sequence="2" timestamp="1704991294610" release="" codeSize="13" numClasses="1"/>
+    <AppVersion sequence="3" timestamp="1704991309969" release="" codeSize="13" numClasses="1"/>
+  </History>
+</BugCollection>

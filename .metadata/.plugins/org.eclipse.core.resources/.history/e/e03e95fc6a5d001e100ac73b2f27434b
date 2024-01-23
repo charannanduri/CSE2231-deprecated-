@@ -1,0 +1,134 @@
+import components.simplereader.SimpleReader;
+import components.simplereader.SimpleReader1L;
+import components.simplewriter.SimpleWriter;
+import components.simplewriter.SimpleWriter1L;
+import components.xmltree.XMLTree;
+import components.xmltree.XMLTree1;
+
+/**
+ * This program inputs an XML RSS (version 2.0) feed from a given URL and
+ * outputs various elements of the feed to the console.
+ *
+ * @author Evan Frisbie
+ *
+ */
+public final class RSSProcessing {
+
+    /**
+     * Private constructor so this utility class cannot be instantiated.
+     */
+    private RSSProcessing() {
+    }
+
+    private static void createHeader(XMLTree feed, SimpleWriter rss) {
+        String title, link, description;
+
+        title = feed.child(0).child(0).toString();
+        link = feed.child(1).child(0).toString();
+        description = feed.child(2).toString();
+
+        rss.println("<h1>");
+        rss.println("<a href='" + link + "' >" + title + "</a></h1>");
+        rss.println("<p> " + description + "</p>");
+    }
+
+    /**
+     * Finds the first occurrence of the given tag among the children of the
+     * given {@code XMLTree} and return its index; returns -1 if not found.
+     *
+     * @param xml
+     *            the {@code XMLTree} to search
+     * @param tag
+     *            the tag to look for
+     * @return the index of the first child of the {@code XMLTree} matching the
+     *         given tag or -1 if not found
+     * @requires [the label of the root of xml is a tag]
+     * @ensures <pre>
+     * getChildElement =
+     *  [the index of the first child of the {@code XMLTree} matching the
+     *   given tag or -1 if not found]
+     * </pre>
+     */
+    private static int getChildElement(XMLTree xml, String tag) {
+        assert xml != null : "Violation of: xml is not null";
+        assert tag != null : "Violation of: tag is not null";
+        assert xml.isTag() : "Violation of: the label root of xml is a tag";
+
+        int children = xml.numberOfChildren(), index = -2;
+        XMLTree treeHold = xml;
+
+        while (index == -2) {
+            for (int i = 0; i < children; i++) {
+                if (treeHold.child(i).label() == tag) {
+                    index = i;
+                } else {
+
+                }
+            }
+        }
+
+        return 0;
+
+    }
+
+    /**
+     * Processes one news item and outputs the title, or the description if the
+     * title is not present, and the link (if available) with appropriate
+     * labels.
+     *
+     * @param item
+     *            the news item
+     * @param out
+     *            the output stream
+     * @requires [the label of the root of item is an <item> tag] and
+     *           out.is_open
+     * @ensures out.content = #out.content * [the title (or description) and
+     *          link]
+     */
+    private static void processItem(XMLTree item, SimpleWriter out) {
+        assert item != null : "Violation of: item is not null";
+        assert out != null : "Violation of: out is not null";
+        assert item.isTag() && item.label().equals("item") : ""
+                + "Violation of: the label root of item is an <item> tag";
+        assert out.isOpen() : "Violation of: out.is_open";
+        /*
+         * TODO: #3 - fill in body
+         */
+
+    }
+
+    /**
+     * Main method.
+     *
+     * @param args
+     *            the command line arguments; unused here
+     */
+    public static void main(String[] args) {
+
+        SimpleReader in = new SimpleReader1L();
+        SimpleWriter out = new SimpleWriter1L();
+
+        out.print("Enter the URL of an RSS 2.0 news feed: ");
+        String url = in.nextLine();
+
+        XMLTree xml = new XMLTree1(url);
+        XMLTree channel = xml.child(0);
+        /*
+         * TODO: #2 - output title, link, and description
+         */
+        SimpleWriter rss = new SimpleWriter1L("rss.html");
+        createHeader(channel, rss);
+
+        /*
+         * TODO: #4 - for each item, output title (or description, if title is
+         * not available) and link (if available)
+         */
+
+        /*
+         * Close I/O streams.
+         */
+        in.close();
+        out.close();
+    }
+
+}

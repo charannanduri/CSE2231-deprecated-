@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.7.3" sequence="66" timestamp="1698364829882" analysisTimestamp="1698364829674" release="">
+  <Project projectName="XMLTreeExpressionEvaluator">
+    <Jar>C:\Users\efris\Desktop\OsuCseWsTemplate\workspace\XMLTreeExpressionEvaluator\bin\XMLTreeNNExpressionEvaluator.class</Jar>
+    <AuxClasspathEntry>C:\Users\efris\Desktop\OsuCseWsTemplate\workspace\XMLTreeExpressionEvaluator\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\efris\Desktop\components.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\efris\Desktop\eclipse-java-2023-06-R-win32-x86_64\eclipse\plugins\org.junit_4.13.2.v20211018-1956.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\efris\Desktop\eclipse-java-2023-06-R-win32-x86_64\eclipse\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\efris\Desktop\eclipse-java-2023-06-R-win32-x86_64\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.7.v20230425-1502\jre\lib\jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\efris\Desktop\OsuCseWsTemplate\workspace\XMLTreeExpressionEvaluator\src</SrcDir>
+    <SrcDir>C:\Users\efris\Desktop\OsuCseWsTemplate\workspace\XMLTreeExpressionEvaluator\test</SrcDir>
+  </Project>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="17" last="17" removedByChange="true">
+    <Class classname="XMLTreeIntExpressionEvaluator">
+      <SourceLine classname="XMLTreeIntExpressionEvaluator" sourcefile="XMLTreeIntExpressionEvaluator.java" sourcepath="XMLTreeIntExpressionEvaluator.java"/>
+    </Class>
+    <Method classname="XMLTreeIntExpressionEvaluator" name="evaluate" signature="(Lcomponents/xmltree/XMLTree;Lcomponents/simplewriter/SimpleWriter;)I" isStatic="true">
+      <SourceLine classname="XMLTreeIntExpressionEvaluator" start="35" end="70" startBytecode="0" endBytecode="150" sourcefile="XMLTreeIntExpressionEvaluator.java" sourcepath="XMLTreeIntExpressionEvaluator.java"/>
+    </Method>
+    <LocalVariable name="j" register="4" pc="42" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="XMLTreeIntExpressionEvaluator" start="40" end="40" startBytecode="40" endBytecode="40" sourcefile="XMLTreeIntExpressionEvaluator.java" sourcepath="XMLTreeIntExpressionEvaluator.java"/>
+    <SourceLine classname="XMLTreeIntExpressionEvaluator" start="40" end="40" startBytecode="40" endBytecode="40" sourcefile="XMLTreeIntExpressionEvaluator.java" sourcepath="XMLTreeIntExpressionEvaluator.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.BASE_VALUE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="j"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="ES_COMPARING_STRINGS_WITH_EQ" priority="1" rank="9" abbrev="ES" category="BAD_PRACTICE" first="1" last="4" removedByChange="true">
+    <Class classname="XMLTreeIntExpressionEvaluator">
+      <SourceLine classname="XMLTreeIntExpressionEvaluator" sourcefile="XMLTreeIntExpressionEvaluator.java" sourcepath="XMLTreeIntExpressionEvaluator.java"/>
+    </Class>
+    <Method classname="XMLTreeIntExpressionEvaluator" name="evaluate" signature="(Lcomponents/xmltree/XMLTree;)I" isStatic="true">
+      <SourceLine classname="XMLTreeIntExpressionEvaluator" start="35" end="60" startBytecode="0" endBytecode="112" sourcefile="XMLTreeIntExpressionEvaluator.java" sourcepath="XMLTreeIntExpressionEvaluator.java"/>
+    </Method>
+    <Type descriptor="Ljava/lang/String;" role="TYPE_FOUND">
+      <SourceLine classname="java.lang.String" start="140" end="4657" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Type>
+    <String value="divide" role="STRING_CONSTANT"/>
+    <Method classname="components.xmltree.XMLTree" name="toString" signature="()Ljava/lang/String;" isStatic="false" role="METHOD_RETURN_VALUE_OF">
+      <SourceLine classname="components.xmltree.XMLTree"/>
+    </Method>
+    <SourceLine classname="XMLTreeIntExpressionEvaluator" start="50" end="50" startBytecode="160" endBytecode="160" sourcefile="XMLTreeIntExpressionEvaluator.java" sourcepath="XMLTreeIntExpressionEvaluator.java"/>
+    <SourceLine classname="XMLTreeIntExpressionEvaluator" start="50" end="50" startBytecode="160" endBytecode="160" sourcefile="XMLTreeIntExpressionEvaluator.java" sourcepath="XMLTreeIntExpressionEvaluator.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.RefComparisonWarningProperty.DYNAMIC_AND_UNKNOWN" value="true"/>
+  </BugInstance>
+  <BugInstance type="ES_COMPARING_STRINGS_WITH_EQ" priority="1" rank="9" abbrev="ES" category="BAD_PRACTICE" first="1" last="4" removedByChange="true">
+    <Class classname="XMLTreeIntExpressionEvaluator">
+      <SourceLine classname="XMLTreeIntExpressionEvaluator" sourcefile="XMLTreeIntExpressionEvaluator.java" sourcepath="XMLTreeIntExpressionEvaluator.java"/>
+    </Class>
+    <Method classname="XMLTreeIntExpressionEvaluator" name="evaluate" signature="(Lcomponents/xmltree/XMLTree;)I" isStatic="true">
+      <SourceLine classname="XMLTreeIntExpressionEvaluator" start="35" end="60" startBytecode="0" endBytecode="112" sourcefile="XMLTreeIntExpressionEvaluator.java" sourcepath="XMLTreeIntExpressionEvaluator.java"/>
+    </Method>
+    <Type descriptor="Ljava/lang/String;" role="TYPE_FOUND">
+      <SourceLine classname="java.lang.String" start="140" end="4657" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Type>
+    <String value="multiply" role="STRING_CONSTANT"/>
+    <Method classname="components.xmltree.XMLTree" name="toString" signature="()Ljava/lang/String;" isStatic="false" role="METHOD_RETURN_VALUE_OF">
+      <SourceLine classname="components.xmltree.XMLTree"/>
+    </Method>
+    <SourceLine classname="XMLTreeIntExpressionEvaluator" start="46" end="46" startBytecode="114" endBytecode="114" sourcefile="XMLTreeIntExpressionEvaluator.java" sourcepath="XMLTreeIntExpressionEvaluator.java"/>
+    <SourceLine classname="XMLTreeIntExpressionEvaluator" start="46" end="46" startBytecode="114" endBytecode="114" sourcefile="XMLTreeIntExpressionEvaluator.java" sourcepath="XMLTreeIntExpressionEvaluator.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.RefComparisonWarningProperty.DYNAMIC_AND_UNKNOWN" value="true"/>
+  </BugInstance>
+  <BugInstance type="ES_COMPARING_STRINGS_WITH_EQ" priority="1" rank="9" abbrev="ES" category="BAD_PRACTICE" first="1" last="4" removedByChange="true">
+    <Class classname="XMLTreeIntExpressionEvaluator">
+      <SourceLine classname="XMLTreeIntExpressionEvaluator" sourcefile="XMLTreeIntExpressionEvaluator.java" sourcepath="XMLTreeIntExpressionEvaluator.java"/>
+    </Class>
+    <Method classname="XMLTreeIntExpressionEvaluator" name="evaluate" signature="(Lcomponents/xmltree/XMLTree;)I" isStatic="true">
+      <SourceLine classname="XMLTreeIntExpressionEvaluator" start="35" end="60" startBytecode="0" endBytecode="112" sourcefile="XMLTreeIntExpressionEvaluator.java" sourcepath="XMLTreeIntExpressionEvaluator.java"/>
+    </Method>
+    <Type descriptor="Ljava/lang/String;" role="TYPE_FOUND">
+      <SourceLine classname="java.lang.String" start="140" end="4657" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Type>
+    <String value="plus" role="STRING_CONSTANT"/>
+    <Method classname="components.xmltree.XMLTree" name="toString" signature="()Ljava/lang/String;" isStatic="false" role="METHOD_RETURN_VALUE_OF">
+      <SourceLine classname="components.xmltree.XMLTree"/>
+    </Method>
+    <SourceLine classname="XMLTreeIntExpressionEvaluator" start="42" end="42" startBytecode="68" endBytecode="68" sourcefile="XMLTreeIntExpressionEvaluator.java" sourcepath="XMLTreeIntExpressionEvaluator.java"/>
+    <SourceLine classname="XMLTreeIntExpressionEvaluator" start="42" end="42" startBytecode="68" endBytecode="68" sourcefile="XMLTreeIntExpressionEvaluator.java" sourcepath="XMLTreeIntExpressionEvaluator.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.RefComparisonWarningProperty.DYNAMIC_AND_UNKNOWN" value="true"/>
+  </BugInstance>
+  <BugInstance type="ES_COMPARING_STRINGS_WITH_EQ" priority="1" rank="9" abbrev="ES" category="BAD_PRACTICE" first="1" last="4" removedByChange="true">
+    <Class classname="XMLTreeIntExpressionEvaluator">
+      <SourceLine classname="XMLTreeIntExpressionEvaluator" sourcefile="XMLTreeIntExpressionEvaluator.java" sourcepath="XMLTreeIntExpressionEvaluator.java"/>
+    </Class>
+    <Method classname="XMLTreeIntExpressionEvaluator" name="evaluate" signature="(Lcomponents/xmltree/XMLTree;)I" isStatic="true">
+      <SourceLine classname="XMLTreeIntExpressionEvaluator" start="35" end="60" startBytecode="0" endBytecode="112" sourcefile="XMLTreeIntExpressionEvaluator.java" sourcepath="XMLTreeIntExpressionEvaluator.java"/>
+    </Method>
+    <Type descriptor="Ljava/lang/String;" role="TYPE_FOUND">
+      <SourceLine classname="java.lang.String" start="140" end="4657" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Type>
+    <String value="subtract" role="STRING_CONSTANT"/>
+    <Method classname="components.xmltree.XMLTree" name="toString" signature="()Ljava/lang/String;" isStatic="false" role="METHOD_RETURN_VALUE_OF">
+      <SourceLine classname="components.xmltree.XMLTree"/>
+    </Method>
+    <SourceLine classname="XMLTreeIntExpressionEvaluator" start="54" end="54" startBytecode="206" endBytecode="206" sourcefile="XMLTreeIntExpressionEvaluator.java" sourcepath="XMLTreeIntExpressionEvaluator.java"/>
+    <SourceLine classname="XMLTreeIntExpressionEvaluator" start="54" end="54" startBytecode="206" endBytecode="206" sourcefile="XMLTreeIntExpressionEvaluator.java" sourcepath="XMLTreeIntExpressionEvaluator.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.RefComparisonWarningProperty.DYNAMIC_AND_UNKNOWN" value="true"/>
+  </BugInstance>
+  <BugInstance type="ES_COMPARING_STRINGS_WITH_EQ" priority="1" rank="9" abbrev="ES" category="BAD_PRACTICE" first="6" last="16" removedByChange="true">
+    <Class classname="XMLTreeIntExpressionEvaluator">
+      <SourceLine classname="XMLTreeIntExpressionEvaluator" sourcefile="XMLTreeIntExpressionEvaluator.java" sourcepath="XMLTreeIntExpressionEvaluator.java"/>
+    </Class>
+    <Method classname="XMLTreeIntExpressionEvaluator" name="evaluate" signature="(Lcomponents/xmltree/XMLTree;Lcomponents/simplewriter/SimpleWriter;)I" isStatic="true">
+      <SourceLine classname="XMLTreeIntExpressionEvaluator" start="35" end="70" startBytecode="0" endBytecode="150" sourcefile="XMLTreeIntExpressionEvaluator.java" sourcepath="XMLTreeIntExpressionEvaluator.java"/>
+    </Method>
+    <Type descriptor="Ljava/lang/String;" role="TYPE_FOUND">
+      <SourceLine classname="java.lang.String" start="140" end="4657" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Type>
+    <String value="divide" role="STRING_CONSTANT"/>
+    <Method classname="components.xmltree.XMLTree" name="toString" signature="()Ljava/lang/String;" isStatic="false" role="METHOD_RETURN_VALUE_OF">
+      <SourceLine classname="components.xmltree.XMLTree"/>
+    </Method>
+    <SourceLine classname="XMLTreeIntExpressionEvaluator" start="58" end="58" startBytecode="249" endBytecode="249" sourcefile="XMLTreeIntExpressionEvaluator.java" sourcepath="XMLTreeIntExpressionEvaluator.java"/>
+    <SourceLine classname="XMLTreeIntExpressionEvaluator" start="58" end="58" startBytecode="249" endBytecode="249" sourcefile="XMLTreeIntExpressionEvaluator.java" sourcepath="XMLTreeIntExpressionEvaluator.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.RefComparisonWarningProperty.DYNAMIC_AND_UNKNOWN" value="true"/>
+  </BugInstance>
+  <BugInstance type="ES_COMPARING_STRINGS_WITH_EQ" priority="1" rank="9" abbrev="ES" category="BAD_PRACTICE" first="6" last="11" removedByChange="true">
+    <Class classname="XMLTreeIntExpressionEvaluator">
+      <SourceLine classname="XMLTreeIntExpressionEvaluator" sourcefile="XMLTreeIntExpressionEvaluator.java" sourcepath="XMLTreeIntExpressionEvaluator.java"/>
+    </Class>
+    <Method classname="XMLTreeIntExpressionEvaluator" name="evaluate" signature="(Lcomponents/xmltree/XMLTree;Lcomponents/simplewriter/SimpleWriter;)I" isStatic="true">
+      <SourceLine classname="XMLTreeIntExpressionEvaluator" start="35" end="70" startBytecode="0" endBytecode="148" sourcefile="XMLTreeIntExpressionEvaluator.java" sourcepath="XMLTreeIntExpressionEvaluator.java"/>
+    </Method>
+    <Type descriptor="Ljava/lang/String;" role="TYPE_FOUND">
+      <SourceLine classname="java.lang.String" start="140" end="4657" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Type>
+    <String value="multiply" role="STRING_CONSTANT"/>
+    <Method classname="components.xmltree.XMLTree" name="toString" signature="()Ljava/lang/String;" isStatic="false" role="METHOD_RETURN_VALUE_OF">
+      <SourceLine classname="components.xmltree.XMLTree"/>
+    </Method>
+    <SourceLine classname="XMLTreeIntExpressionEvaluator" start="53" end="53" startBytecode="190" endBytecode="190" sourcefile="XMLTreeIntExpressionEvaluator.java" sourcepath="XMLTreeIntExpressionEvaluator.java"/>
+    <SourceLine classname="XMLTreeIntExpressionEvaluator" start="53" end="53" startBytecode="190" endBytecode="190" sourcefile="XMLTreeIntExpressionEvaluator.java" sourcepath="XMLTreeIntExpressionEvaluator.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.RefComparisonWarningProperty.DYNAMIC_AND_UNKNOWN" value="true"/>
+  </BugInstance>
+  <BugInstance type="ES_COMPARING_STRINGS_WITH_EQ" priority="1" rank="9" abbrev="ES" category="BAD_PRACTICE" first="6" last="11" removedByChange="true">
+    <Class classname="XMLTreeIntExpressionEvaluator">
+      <SourceLine classname="XMLTreeIntExpressionEvaluator" sourcefile="XMLTreeIntExpressionEvaluator.java" sourcepath="XMLTreeIntExpressionEvaluator.java"/>
+    </Class>
+    <Method classname="XMLTreeIntExpressionEvaluator" name="evaluate" signature="(Lcomponents/xmltree/XMLTree;Lcomponents/simplewriter/SimpleWriter;)I" isStatic="true">
+      <SourceLine classname="XMLTreeIntExpressionEvaluator" start="35" end="70" startBytecode="0" endBytecode="148" sourcefile="XMLTreeIntExpressionEvaluator.java" sourcepath="XMLTreeIntExpressionEvaluator.java"/>
+    </Method>
+    <Type descriptor="Ljava/lang/String;" role="TYPE_FOUND">
+      <SourceLine classname="java.lang.String" start="140" end="4657" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Type>
+    <String value="plus" role="STRING_CONSTANT"/>
+    <Method classname="components.xmltree.XMLTree" name="toString" signature="()Ljava/lang/String;" isStatic="false" role="METHOD_RETURN_VALUE_OF">
+      <SourceLine classname="components.xmltree.XMLTree"/>
+    </Method>
+    <SourceLine classname="XMLTreeIntExpressionEvaluator" start="48" end="48" startBytecode="138" endBytecode="138" sourcefile="XMLTreeIntExpressionEvaluator.java" sourcepath="XMLTreeIntExpressionEvaluator.java"/>
+    <SourceLine classname="XMLTreeIntExpressionEvaluator" start="48" end="48" startBytecode="138" endBytecode="138" sourcefile="XMLTreeIntExpressionEvaluator.java" sourcepath="XMLTreeIntExpressionEvaluator.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.RefComparisonWarningProperty.DYNAMIC_AND_UNKNOWN" value="true"/>
+  </BugInstance>
+  <BugInstance type="ES_COMPARING_STRINGS_WITH_EQ" priority="1" rank="9" abbrev="ES" category="BAD_PRACTICE" first="6" last="16" removedByChange="true">
+    <Class classname="XMLTreeIntExpressionEvaluator">
+      <SourceLine classname="XMLTreeIntExpressionEvaluator" sourcefile="XMLTreeIntExpressionEvaluator.java" sourcepath="XMLTreeIntExpressionEvaluator.java"/>
+    </Class>
+    <Method classname="XMLTreeIntExpressionEvaluator" name="evaluate" signature="(Lcomponents/xmltree/XMLTree;Lcomponents/simplewriter/SimpleWriter;)I" isStatic="true">
+      <SourceLine classname="XMLTreeIntExpressionEvaluator" start="35" end="70" startBytecode="0" endBytecode="150" sourcefile="XMLTreeIntExpressionEvaluator.java" sourcepath="XMLTreeIntExpressionEvaluator.java"/>
+    </Method>
+    <Type descriptor="Ljava/lang/String;" role="TYPE_FOUND">
+      <SourceLine classname="java.lang.String" start="140" end="4657" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Type>
+    <String value="subtract" role="STRING_CONSTANT"/>
+    <Method classname="components.xmltree.XMLTree" name="toString" signature="()Ljava/lang/String;" isStatic="false" role="METHOD_RETURN_VALUE_OF">
+      <SourceLine classname="components.xmltree.XMLTree"/>
+    </Method>
+    <SourceLine classname="XMLTreeIntExpressionEvaluator" start="63" end="63" startBytecode="301" endBytecode="301" sourcefile="XMLTreeIntExpressionEvaluator.java" sourcepath="XMLTreeIntExpressionEvaluator.java"/>
+    <SourceLine classname="XMLTreeIntExpressionEvaluator" start="63" end="63" startBytecode="301" endBytecode="301" sourcefile="XMLTreeIntExpressionEvaluator.java" sourcepath="XMLTreeIntExpressionEvaluator.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.RefComparisonWarningProperty.DYNAMIC_AND_UNKNOWN" value="true"/>
+  </BugInstance>
+  <BugInstance type="IL_INFINITE_LOOP" priority="1" rank="8" abbrev="IL" category="CORRECTNESS" first="26" last="26" removedByChange="true">
+    <Class classname="XMLTreeIntExpressionEvaluator">
+      <SourceLine classname="XMLTreeIntExpressionEvaluator" sourcefile="XMLTreeIntExpressionEvaluator.java" sourcepath="XMLTreeIntExpressionEvaluator.java"/>
+    </Class>
+    <Method classname="XMLTreeIntExpressionEvaluator" name="evaluate" signature="(Lcomponents/xmltree/XMLTree;Lcomponents/simplewriter/SimpleWriter;)I" isStatic="true">
+      <SourceLine classname="XMLTreeIntExpressionEvaluator" start="35" end="70" startBytecode="0" endBytecode="584" sourcefile="XMLTreeIntExpressionEvaluator.java" sourcepath="XMLTreeIntExpressionEvaluator.java"/>
+    </Method>
+    <SourceLine classname="XMLTreeIntExpressionEvaluator" start="50" end="50" startBytecode="197" endBytecode="197" sourcefile="XMLTreeIntExpressionEvaluator.java" sourcepath="XMLTreeIntExpressionEvaluator.java"/>
+    <LocalVariable name="children" register="2" pc="197" role="LOCAL_VARIABLE_NAMED"/>
+    <LocalVariable name="i" register="3" pc="197" role="LOCAL_VARIABLE_NAMED"/>
+  </BugInstance>
+  <BugInstance type="DB_DUPLICATE_BRANCHES" priority="2" rank="17" abbrev="DB" category="STYLE" first="62">
+    <Class classname="XMLTreeNNExpressionEvaluator">
+      <SourceLine classname="XMLTreeNNExpressionEvaluator" sourcefile="XMLTreeNNExpressionEvaluator.java" sourcepath="XMLTreeNNExpressionEvaluator.java"/>
+    </Class>
+    <Method classname="XMLTreeNNExpressionEvaluator" name="evaluate" signature="(Lcomponents/xmltree/XMLTree;)Lcomponents/naturalnumber/NaturalNumber;" isStatic="true">
+      <SourceLine classname="XMLTreeNNExpressionEvaluator" start="38" end="111" startBytecode="0" endBytecode="1382" sourcefile="XMLTreeNNExpressionEvaluator.java" sourcepath="XMLTreeNNExpressionEvaluator.java"/>
+    </Method>
+    <SourceLine classname="XMLTreeNNExpressionEvaluator" start="58" end="59" startBytecode="136" endBytecode="154" sourcefile="XMLTreeNNExpressionEvaluator.java" sourcepath="XMLTreeNNExpressionEvaluator.java"/>
+    <SourceLine classname="XMLTreeNNExpressionEvaluator" start="60" end="60" startBytecode="157" endBytecode="170" sourcefile="XMLTreeNNExpressionEvaluator.java" sourcepath="XMLTreeNNExpressionEvaluator.java"/>
+  </BugInstance>
+  <BugInstance type="DB_DUPLICATE_BRANCHES" priority="2" rank="17" abbrev="DB" category="STYLE" first="62">
+    <Class classname="XMLTreeNNExpressionEvaluator">
+      <SourceLine classname="XMLTreeNNExpressionEvaluator" sourcefile="XMLTreeNNExpressionEvaluator.java" sourcepath="XMLTreeNNExpressionEvaluator.java"/>
+    </Class>
+    <Method classname="XMLTreeNNExpressionEvaluator" name="evaluate" signature="(Lcomponents/xmltree/XMLTree;)Lcomponents/naturalnumber/NaturalNumber;" isStatic="true">
+      <SourceLine classname="XMLTreeNNExpressionEvaluator" start="38" end="111" startBytecode="0" endBytecode="1382" sourcefile="XMLTreeNNExpressionEvaluator.java" sourcepath="XMLTreeNNExpressionEvaluator.java"/>
+    </Method>
+    <SourceLine classname="XMLTreeNNExpressionEvaluator" start="66" end="67" startBytecode="223" endBytecode="241" sourcefile="XMLTreeNNExpressionEvaluator.java" sourcepath="XMLTreeNNExpressionEvaluator.java"/>
+    <SourceLine classname="XMLTreeNNExpressionEvaluator" start="68" end="68" startBytecode="244" endBytecode="257" sourcefile="XMLTreeNNExpressionEvaluator.java" sourcepath="XMLTreeNNExpressionEvaluator.java"/>
+  </BugInstance>
+  <BugInstance type="INT_VACUOUS_COMPARISON" priority="2" rank="17" abbrev="INT" category="STYLE" first="64" last="64" removedByChange="true">
+    <Class classname="XMLTreeNNExpressionEvaluator">
+      <SourceLine classname="XMLTreeNNExpressionEvaluator" sourcefile="XMLTreeNNExpressionEvaluator.java" sourcepath="XMLTreeNNExpressionEvaluator.java"/>
+    </Class>
+    <Method classname="XMLTreeNNExpressionEvaluator" name="evaluate" signature="(Lcomponents/xmltree/XMLTree;)Lcomponents/naturalnumber/NaturalNumber;" isStatic="true">
+      <SourceLine classname="XMLTreeNNExpressionEvaluator" start="38" end="116" startBytecode="0" endBytecode="1482" sourcefile="XMLTreeNNExpressionEvaluator.java" sourcepath="XMLTreeNNExpressionEvaluator.java"/>
+    </Method>
+    <SourceLine classname="XMLTreeNNExpressionEvaluator" start="52" end="52" startBytecode="83" endBytecode="83" sourcefile="XMLTreeNNExpressionEvaluator.java" sourcepath="XMLTreeNNExpressionEvaluator.java"/>
+    <SourceLine classname="XMLTreeNNExpressionEvaluator" start="52" end="52" startBytecode="83" endBytecode="83" sourcefile="XMLTreeNNExpressionEvaluator.java" sourcepath="XMLTreeNNExpressionEvaluator.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Thu, 26 Oct 2023 20:00:29 -0400" total_classes="1" referenced_classes="23" total_bugs="2" total_size="77" num_packages="1" java_version="17.0.8" vm_version="17.0.8+7" cpu_seconds="0.20" clock_seconds="0.21" peak_mbytes="974.87" alloc_mbytes="2048.00" gc_seconds="0.02" priority_2="2">
+    <PackageStats package="" total_bugs="2" total_types="1" total_size="77" priority_2="2">
+      <ClassStats class="XMLTreeNNExpressionEvaluator" sourceFile="XMLTreeNNExpressionEvaluator.java" interface="false" size="77" bugs="2" priority_2="2"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="54" invocations="418" avgMicrosecondsPerInvocation="130" maxMicrosecondsPerInvocation="2050" standardDeviationMicrosecondsPerInvocation="258"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="51" invocations="2" avgMicrosecondsPerInvocation="25649" maxMicrosecondsPerInvocation="47986" standardDeviationMicrosecondsPerInvocation="22336"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="40" invocations="419" avgMicrosecondsPerInvocation="97" maxMicrosecondsPerInvocation="8267" standardDeviationMicrosecondsPerInvocation="406"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1698267296996" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1698267296999" release="" codeSize="39" numClasses="1"/>
+    <AppVersion sequence="2" timestamp="1698268609031" release="" codeSize="39" numClasses="1"/>
+    <AppVersion sequence="3" timestamp="1698268873968" release="" codeSize="40" numClasses="1"/>
+    <AppVersion sequence="4" timestamp="1698268922149" release="" codeSize="41" numClasses="1"/>
+    <AppVersion sequence="5" timestamp="1698269077444" release="" codeSize="21" numClasses="1"/>
+    <AppVersion sequence="6" timestamp="1698269092843" release="" codeSize="41" numClasses="1"/>
+    <AppVersion sequence="7" timestamp="1698269150983" release="" codeSize="42" numClasses="1"/>
+    <AppVersion sequence="8" timestamp="1698269241971" release="" codeSize="46" numClasses="1"/>
+    <AppVersion sequence="9" timestamp="1698269268895" release="" codeSize="47" numClasses="1"/>
+    <AppVersion sequence="10" timestamp="1698282779336" release="" codeSize="49" numClasses="1"/>
+    <AppVersion sequence="11" timestamp="1698282825735" release="" codeSize="49" numClasses="1"/>
+    <AppVersion sequence="12" timestamp="1698283339371" release="" codeSize="49" numClasses="1"/>
+    <AppVersion sequence="13" timestamp="1698283357392" release="" codeSize="49" numClasses="1"/>
+    <AppVersion sequence="14" timestamp="1698283384543" release="" codeSize="49" numClasses="1"/>
+    <AppVersion sequence="15" timestamp="1698283701187" release="" codeSize="49" numClasses="1"/>
+    <AppVersion sequence="16" timestamp="1698283725008" release="" codeSize="47" numClasses="1"/>
+    <AppVersion sequence="17" timestamp="1698283793364" release="" codeSize="47" numClasses="1"/>
+    <AppVersion sequence="18" timestamp="1698283823770" release="" codeSize="46" numClasses="1"/>
+    <AppVersion sequence="19" timestamp="1698283957440" release="" codeSize="19" numClasses="1"/>
+    <AppVersion sequence="20" timestamp="1698283960708" release="" codeSize="47" numClasses="1"/>
+    <AppVersion sequence="21" timestamp="1698284029261" release="" codeSize="47" numClasses="1"/>
+    <AppVersion sequence="22" timestamp="1698284063462" release="" codeSize="47" numClasses="1"/>
+    <AppVersion sequence="23" timestamp="1698284128248" release="" codeSize="47" numClasses="1"/>
+    <AppVersion sequence="24" timestamp="1698284193255" release="" codeSize="47" numClasses="1"/>
+    <AppVersion sequence="25" timestamp="1698284205429" release="" codeSize="47" numClasses="1"/>
+    <AppVersion sequence="26" timestamp="1698284294643" release="" codeSize="47" numClasses="1"/>
+    <AppVersion sequence="27" timestamp="1698284299847" release="" codeSize="48" numClasses="1"/>
+    <AppVersion sequence="28" timestamp="1698284351841" release="" codeSize="46" numClasses="1"/>
+    <AppVersion sequence="29" timestamp="1698284391943" release="" codeSize="47" numClasses="1"/>
+    <AppVersion sequence="30" timestamp="1698284629115" release="" codeSize="47" numClasses="1"/>
+    <AppVersion sequence="31" timestamp="1698284664079" release="" codeSize="47" numClasses="1"/>
+    <AppVersion sequence="32" timestamp="1698284877491" release="" codeSize="47" numClasses="1"/>
+    <AppVersion sequence="33" timestamp="1698284922926" release="" codeSize="47" numClasses="1"/>
+    <AppVersion sequence="34" timestamp="1698285168320" release="" codeSize="47" numClasses="1"/>
+    <AppVersion sequence="35" timestamp="1698285228459" release="" codeSize="46" numClasses="1"/>
+    <AppVersion sequence="36" timestamp="1698285258675" release="" codeSize="44" numClasses="1"/>
+    <AppVersion sequence="37" timestamp="1698285389177" release="" codeSize="45" numClasses="1"/>
+    <AppVersion sequence="38" timestamp="1698285426117" release="" codeSize="45" numClasses="1"/>
+    <AppVersion sequence="39" timestamp="1698285453176" release="" codeSize="45" numClasses="1"/>
+    <AppVersion sequence="40" timestamp="1698285485584" release="" codeSize="46" numClasses="1"/>
+    <AppVersion sequence="41" timestamp="1698289460358" release="" codeSize="46" numClasses="1"/>
+    <AppVersion sequence="42" timestamp="1698290461966" release="" codeSize="50" numClasses="1"/>
+    <AppVersion sequence="43" timestamp="1698290517393" release="" codeSize="51" numClasses="1"/>
+    <AppVersion sequence="44" timestamp="1698293439375" release="" codeSize="52" numClasses="1"/>
+    <AppVersion sequence="45" timestamp="1698293468405" release="" codeSize="53" numClasses="1"/>
+    <AppVersion sequence="46" timestamp="1698293495470" release="" codeSize="53" numClasses="1"/>
+    <AppVersion sequence="47" timestamp="1698298000438" release="" codeSize="53" numClasses="1"/>
+    <AppVersion sequence="48" timestamp="1698298054145" release="" codeSize="59" numClasses="1"/>
+    <AppVersion sequence="49" timestamp="1698298101216" release="" codeSize="59" numClasses="1"/>
+    <AppVersion sequence="50" timestamp="1698298130705" release="" codeSize="59" numClasses="1"/>
+    <AppVersion sequence="51" timestamp="1698298203120" release="" codeSize="50" numClasses="1"/>
+    <AppVersion sequence="52" timestamp="1698298419839" release="" codeSize="50" numClasses="1"/>
+    <AppVersion sequence="53" timestamp="1698298510311" release="" codeSize="50" numClasses="1"/>
+    <AppVersion sequence="54" timestamp="1698298525648" release="" codeSize="50" numClasses="1"/>
+    <AppVersion sequence="55" timestamp="1698298564044" release="" codeSize="50" numClasses="1"/>
+    <AppVersion sequence="56" timestamp="1698298574763" release="" codeSize="19" numClasses="1"/>
+    <AppVersion sequence="57" timestamp="1698298630654" release="" codeSize="19" numClasses="1"/>
+    <AppVersion sequence="58" timestamp="1698298681930" release="" codeSize="19" numClasses="1"/>
+    <AppVersion sequence="59" timestamp="1698299033290" release="" codeSize="19" numClasses="1"/>
+    <AppVersion sequence="60" timestamp="1698299506914" release="" codeSize="19" numClasses="1"/>
+    <AppVersion sequence="61" timestamp="1698299512043" release="" codeSize="19" numClasses="1"/>
+    <AppVersion sequence="62" timestamp="1698299926297" release="" codeSize="74" numClasses="1"/>
+    <AppVersion sequence="63" timestamp="1698299952893" release="" codeSize="74" numClasses="1"/>
+    <AppVersion sequence="64" timestamp="1698364655317" release="" codeSize="82" numClasses="1"/>
+    <AppVersion sequence="65" timestamp="1698364801888" release="" codeSize="78" numClasses="1"/>
+  </History>
+</BugCollection>
